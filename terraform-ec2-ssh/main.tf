@@ -25,7 +25,7 @@ resource "aws_instance" "ec2_example" {
       type        = "ssh"
       host        = self.public_ip
       user        = "ubuntu"
-      private_key = file("/Users/andrew/terraform/terraform-ssh/ssh-key")
+      private_key = file("/Users/andrew/terraform/terraform-ec2-ssh/ssh-key")
       timeout     = "30m"
    }
 }

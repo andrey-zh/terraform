@@ -1,1 +1,1 @@
-# Provision Terraform an EKS Cluster
+# Provision EKS Cluster using Terraform

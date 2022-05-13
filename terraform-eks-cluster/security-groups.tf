@@ -44,14 +44,14 @@ resource "aws_security_group" "all_worker_mgmt" {
       "192.168.0.0/16",
     ]
   }
-    ingress {
+  ingress {
     from_port = 8080
     to_port   = 8080
     protocol  = "tcp"
 
     cidr_blocks = ["0.0.0.0/0"]
   }
-    ingress {
+  ingress {
     from_port = 8081
     to_port   = 8081
     protocol  = "tcp"
